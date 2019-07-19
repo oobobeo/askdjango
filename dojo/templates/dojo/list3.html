@@ -1,0 +1,14 @@
+{% block item_list %}
+	<p>
+		
+	  <p>item list입니다.</p>
+	  <ul>
+	    {% for item in list %}
+	      <li>
+	          {{ item }}
+	      </li>
+	    {% endfor %}
+
+		
+	</p>
+{% endblock item_list %}
